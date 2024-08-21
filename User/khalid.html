@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script src="./js/bootstrap.min.js"></script>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .khalid {
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .khalidimg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .khalid .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(238, 31, 31, 0.5);
+            opacity: 0;
+            transition: opacity 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(55, 246, 21);
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .khalid:hover .overlay {
+            opacity: 1;
+        }
+
+        .khalid:hoverimg {
+            transform: scale(1.1);
+        }
+
+        #k:hover {
+            border: 60px;
+            border-radius: 12px;
+            color: blue;
+            background-color: crimson;
+
+        }
+    </style>
+</head>
+
+<body style="color: white;">
+
+    <img src=". /img/ehud-neuhaus-w5inNVfSyNU-unsplash.jpg"
+        style="z-index:-5;width:100%; height: 200%; position:absolute;">
+    <div class="container">
+
+
+        <Div class="row">
+            <h1 class="text-center text-warning"><b><i>me and my friends</i></b></h1>
+        </Div>
+        <div class="row">
+
+            <div class="khalid">
+                <img src="../Assets/Img/1537786205-74-national-universities-commission.jpg" alt="khalid">
+
+                <div class="overlay">
+                    khalid
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/AGENCIES2.jpg" alt="anavami">
+
+                <div class="overlay">
+                    anavami
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/coatofarm (1).jpeg" alt="omeiza">
+
+                <div class="overlay">
+                    omeiza
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/coatofarm.jpeg" alt="my bestie">
+
+                <div class="overlay">
+                    my bestie
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/CORPORATEENVIRONMENT1.jpg" alt="my gee">
+
+                <div class="overlay">
+                    my gee
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/emplLab.jpg" alt="ay">
+
+                <div class="overlay">
+                    ay
+                </div>
+            </div>
+            <div class="khalid">
+                <img src="../Assets/Img/EMPLOYERS_OF_LABOUR.jpg" alt="ay">
+
+                <div class="overlay">
+                    ay
+                </div>
+            </div>
+
+            <div class="khalid">
+                <img src="../Assets/Img/insti.jpg" alt="sis">
+
+                <div class="overlay">
+                    sis
+                </div>
+            </div>
+
+            <div class="khalid">
+                <img src="../Assets/Img/NBTE_logo-150x150.jpeg" alt="daughter">
+
+                <div class="overlay">
+                    daughter
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

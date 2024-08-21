@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../Assets/Img/itf-logo-large.png">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Siwes — Siwes</title>
+</head>
+
+<body>
+    <div style="background-color: white; height: 100%;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="itf-logo-large">
+                <img src="../Assets/Img/itf-logo-large.png" width="100px" height="80px">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <div class="t_home">
+                            <a class="nav-link" href="./home.html"><i class="fa-solid fa-house"></i>Home</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <div class="t_home">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <div class="t_home">
+                            <a class="nav-link" href="./resources.html">Resources</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown t_home">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Institutions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item  t_home" href="sign-in.html"> List of Institutions </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="create-account.html">Disciplines/Courses <br> approved
+                                for
+                                SIWES</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown t_home">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Employers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="sign-in.html"> View Students </a>
+                            <a class="dropdown-item" href="sign-in.html"> Request For Siwes </a>
+                            <a class="dropdown-item" href="sign-in.html"> Attachment </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="create-account.html">Sectors and Subsectors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown t_home">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Students
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="sign-in.html"> Request For Siwes </a>
+                            <a class="dropdown-item" href="sign-in.html"> Attachment </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="create-account.html">View Employers</a>
+                            <a class="dropdown-item" href="create-account.html">Request For Siwes </a>
+                            <a class="dropdown-item" href="create-account.html">Students </a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <div class="t_home">
+                            <a class="nav-link" href="./contactus.html">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <div class="t_home">
+                            <a class="nav-link" href="./contactus.html">Login</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+     <div class="row1" style="background-color: rgb(144, 142, 142); height: 100%;">
+        <div class=" col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-sm-12 col-lg-12">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-md-8 text-center">
+                        <h1 style="color: white;"> Welcome to SIWES Portal </h1>
+                        <p class="lead mb-4" style=" font-size: x-large; color: white;"> ITF Nigeria: Developing the
+                            Nation's Human Resources </p>
+                        <div>
+                            <a class="btn btn-success btn_read " href="#">Read More</a>
+                            <a class="btn btn-info btn_login" href="#">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <h5 class="text-white"
+                     style="margin-left:20%; font-family:'Times New Roman';                      
+                     font-size:larger">
+                        SIWES Students</h5>
+                    <a class="media-1" href="#">
+                        <img src="../Assets/Img/lab.jpg" alt="Image" class="img-fluid">
+                        <div class="media-1-content">
+                            <span class="category" style="color:white;">
+                                Students who are already placed in companies for their SIWES program must sign up
+                                here with their accurate information (SCAF).
+                            </span>
+                        </div>
+                    </a>
+                    <p style="font-size:large"><a class="text-white" href="#">Read More</a> | <a class="text-white"
+                            href="#">Login</a> | <a class="text-white" href="#">Create
+                            Account</a>
+                    </p>
+
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h5 class="text-white" style="margin-left:20%; font-family:'Times New Roman'; font-size:larger">
+                        Employers of labour</h5>
+                    <a class="media-1" href="#">
+                        <img class="img-fluid" src="../Assets/Img/EMPLOYERS_OF_LABOUR.jpg " alt="Image" width="500">
+                        <div class="media-1-content">
+                            <span class="category" style="color: white; text-transform: uppercase">For companies
+                                interested in taking on SIWES students and those that already have SIWES
+                                students.</span>
+                        </div>
+                    </a>
+                    <p style="font-size:large"><a class="text-white" href="#">Read More</a> | <a class="text-white"
+                            href="#">Login</a> | <a class="text-white" href="#">Create
+                            Account</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <h5 class="text-white" style="margin-left:20%; font-family:'Times New Roman'; font-size:larger">
+                        SIWES Directors (Institutions)</h5>
+                    <a class="media-1" href="#">
+                        <img src="../Assets/Img/inst.jpg" alt="Image" class="img-fluid" width="500">
+                        <div class="media-1-content">
+                            <span class="category" style="color: white; text-transform: uppercase"> SIWES DIRECTORS
+                                (INSTITUTION) </span>
+                        </div>
+                    </a>
+                    <p style="font-size:large"><a class="text-white" href="#">Read More</a> | <a class="text-white"
+                            href="#">Login</a> | <a class="text-white" href="#">Create
+                            Account</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <h5 class="text-white" style="margin-left:20%; font-family:'Times New Roman'; font-size:larger">
+                        Supervisory Agencies</h5>
+                    <a class="media-1" href="#">
+                        <img src="../Assets/Img/AGENCIES2.jpg" width="230" height="230" alt="AGENCIES 2"
+                            style="margin:10px;">
+                        <div class="media-1-content">
+                            <span class="category" style="color: white; text-transform: uppercase">SUPERVISORY
+                                AGENCIES</span>
+                        </div>
+                    </a>
+                    <p style="margin-left:17%;font-size:large">
+                        <a class="text-white" href="#">Read More</a> |
+                        <a class="text-white" href="#">Login</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <div class="container-fluid g-5">
+        <h1 class="lead mb-4 text-black text-center" id="site-section-heading">
+            <b> SIWES REQUEST </b>
+        </h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="bg-light col-md-6">
+                    <h2 class="text-danger text-center" id="siwes_request_sub_section">
+                        STUDENTS
+                    </h2>
+                    <p class="text-center mt-3 text-black"> Click here to search and send your details to
+                        companies looking for SIWES and View Employers Request for SIWES Students.
+                    </p>
+                    <div class="text-danger text-center">
+                        <button class=" btn btn-outline-danger mb-2" id="hbhfhf"> REQUEST FOR
+                            SIWES ATTACHMENT
+                        </button>
+                        <button class="btn btn-outline-danger mb-2" id="hbhfhf"> VIEW EMPLOYERS
+                            REQUEST FOR
+                            SIWES STUDIES </button>
+                    </div>
+                </div>
+                <div class="bg-danger col-md-6">
+                    <h2 class="text-white text-center" id="siwes_request_sub_section"> EMPLOYERS
+                    </h2>
+                    <p class="text-center mt-3 text-white">Click here to request for SIWES Student(s) and View
+                        Students Request for SIWES Attachment.
+                    </p>
+                    <div class="text-white text-center">
+                        <button class=" btn btn-outline-light mb-2" id="hbhfhfjdfjdjdjdjdhcb ebujudvu_emplo"> REQUEST FOR
+                            SIWES STUDENTS
+                        </button>
+                    </div>
+                    <div class="text-white text-center">
+                        <button class="btn btn-outline-light mb-2" id="hbhfhfjdfjdjdjdjdhcb ebujudvujmdfjr_emplo"> VIEW EMPLOYERS
+                            REQUEST FOR
+                            SIWES STUDIES </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="call_bod">
+                    <h3> CALL US (9AM - 4PM ONLY) </h3>
+                    <h3> 0 802 352 9251 </h3>
+                    <h3> 0 803 725 0743 </h3>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="container text-black text-center mt-3" id="site-section-heading">
+        SIWES Stakeholders
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/coatofarm.jpeg">
+                <p id="stk_fed"> Federal Governmnet Of Nigeria </p>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/coatofarm.jpeg" width="150">
+                <p id="stk_fed"> Federal Ministry of Industry, Trade and Investment </p>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/itf-logo-large.png" width="150">
+                <p id="stk_fed"> Industrial Training Fund </p>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/1537786205-74-national-universities-commission.jpg"
+                    width="150px">
+                <p id="stk_fed"> National Universities Commission(N.U.C) </p>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/NBTE_logo-150x150.jpeg" width="150">
+                <p id="stk_fed"> National Board for Technical Education(N.B.T.E) </p>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <img id="img_stk_fed" src="../Assets/Img/ncce-logo-college-of-education-150x150.png" width="150">
+                <p id="stk_fed"> National Commision for Colleges of Education(N.C.C.E) </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <img id="siw_sub" src="../Assets/Img/emplLab.jpg" width="200px" height="150px">
+                <p id="siw_sub_stk"> Employers Of Labour </p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <img id="siw_sub" src="../Assets/Img/insti.jpg" width="200px" height="150px">
+                <p id="siw_sub_stk"> Institutions of Higher Learning </p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <img id="siw_sub" src="../Assets/Img/students.jpg" width="200px" height="150px">
+                <p id="siw_sub_stk"> Students </p>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container lead mb-4 text-black text-center mt-5" id="site-section-heading">
+        SIWES Objective
+    </div>
+
+    <div class="container text-black ">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="text-center"> The Scheme is designed to bridge the gap between employers expectations and
+                    actual performance of
+                    Nigerian graduates.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/SKILLDEVELOPMENT1.jpg" alt="Skill Development Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Skills Development </h3>
+                <p id="siw_dev_tex"> Provide an avenue for students in institutions of higher learning to acquire
+                    industrial skills and
+                    experience in their course of study.
+                </p>
+            </div>
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/PRACTICALKNOWLEDGE1.jpg" alt="Practical Knowledge Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Practical Knowledge </h3>
+                <p id="siw_dev_tex"> Expose students to work methods and techniques in handling equipment and
+                    machines
+                    that may not be
+                    available in their institutions.
+                </p>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/CORPORATEENVIRONMENT1.jpg" alt="Corporate Environment Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Corporate Environment </h3>
+                <p id="siw_dev_tex"> Prepare students for Industrial Work situation they are to meet after
+                    graduation.
+                </p>
+            </div>
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/NETWORKING1.jpg" alt="Networking Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Networking </h3>
+                <p id="siw_dev_tex"> Make transition from school to the world of work easier and enhance students’
+                    contacts for later job
+                    placement.
+                </p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/FIELDEXPERIENCE1.jpg" alt="Field Experience Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Field Experience </h3>
+                <p id="siw_dev_tex"> Provide Students with an opportunity to apply their knowledge in real work
+                    situation, thereby
+                    bridging the gap between theory and practice.
+                </p>
+            </div>
+            <div class="col-md-2">
+                <img id="siw_dev_img" src="../Assets/Img/SYNERGY1.jpg" alt="Synergy Image">
+            </div>
+            <div class="col-md-4">
+                <h3> Synergy </h3>
+                <p id="siw_dev_tex"> Enlist and strengthen employers’ involvement in the entire educational process.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" style="background-color: black;">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6" style="margin-top: 150px;">
+                <h3 class="text-white"> Welcome To Siwes </h3>
+                <div>
+                    <img src="../Assets/Img/stakeholders.PNG" width="100%" height="250px">
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <h3 class="align-items-center">
+                    <h3 class="text-white" style="font-size: 20px;"> AGENCIES </h3>
+                    <p style="color: rgb(147, 147, 147);">Upload approved master and placement lists.</p>
+                    <p><a class="text-white" href="#">Read More</a></p>
+                    <p><a class="text-white" href="#">Login</a></p>
+                    <h3 class="text-white" style="font-size: 20px;">Employers of Labour </h3>
+                    <p style="color: rgb(147, 147, 147);">For companies interested in taking on SIWES students and
+                        those
+                        that already have SIWES students.
+                    </p>
+                    <p><a class="text-white" href="#">Read More</a></p>
+                    <p><a class="text-white" href="#">Request for SIWES Students</a></p>
+                    <p><a class="text-white" href="#">Create Company Details</a></p>
+                    <p><a class="text-white" href="#">Login</a></p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="mb-5">
+                    <h3 class="align-items-center">
+                        <h3 class="text-white" style="font-size: 20px;"> SIWES Directors (Institutions) </h3>
+                        <p style="color: rgb(147, 147, 147);">Create student, Generate master list and placement
+                            list
+                        </p>
+                        <p><a class="text-white" href="#">Read More</a></p>
+                        <p><a class="text-white" href="#">Login</a></p>
+                </div>
+                <div>
+                    <h3 class="text-white" style="font-size: 20px;"> STUDENTS </h3>
+                    <p style="color: rgb(147, 147, 147);">Students who are already placed in companies for their
+                        SIWES
+                        program must sign up here with their
+                        accurate information (SCAF).</p>
+                    <div class="text-white">
+                        <p><a class="text-white" href="#">Read More</a></p>
+                        <p><a class="text-white" href="#">Create Company Details</a></p>
+                        <p><a class="text-white" href="#">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-black text-center mt-5" style="font-family:monospace; font-size: 60px;">
+        CORE Values
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <h3 class="text-danger"> Vision Statement </h3>
+                <p> To Be The Leading Skills Training Organisation In Nigeria And One Of The Best In The World.
+                    To Be The Leading Human Capital Development Organisation In Nigeria And One Of The Best In The
+                    World.
+                </p>
+            </div>
+            <div class="col-sm-6 col-lg-5">
+                <h3 class="text-danger"> Mission Statement </h3>
+                <p> To Set, Regulate Training Standards And Provide Need-Based Human Capital Development
+                    Interventions
+                    Using A Corps Of Highly Competent Professionals In Line With Global Best Practices.
+                </p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <h3 class="text-danger"> Values </h3>
+                <div style="margin-left: 30px;">
+                    <li> Commitment </li>
+                    <li> Loyalty </li>
+                    <li> Integrity </li>
+                    <li> Professionalism & Creativity</li>
+                    <li> Efficiency & Effectiveness </li>
+                    <li> Team Work </li>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-danger mt-3">
+        <div class="row ">
+            <div class="col-sm-12 col-lg-1"></div>
+            <div class="col-sm-6 col-lg-5 mt-5 text-white">
+                <h3> Contact </h3>
+                <li> Headquarters: Along Miango Road, P.M.B 2199 Jos, Plateau State. </li>
+                <h5> For Enquiries on : </h5>
+                <li> Directorates: 07031786051 </li>
+                <li> Email: dgitf@itf.gov.ng </li>
+            </div>
+            <div class="col-sm-6 col-lg-5 mt-5 text-white" style="margin-left: 10px;">
+                <h3> Contact Us </h3>
+                <li> 0 803 725 0743 OR 0 802 352 9251 </li>
+                <li> siwes@itf.gov.ng</li>
+                <li> Calls Only</li>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row mt-2 ">
+                <!-- <div class=" col-sm-12 col-lg-8" style="margin-left: 100px; border: 1px solid red;" > -->
+                <div class="col-sm-8">
+                    <h2 class="mt-2 text-white ">Follow Us</h2>
+                    <a href="#" style="color:white; background: #3B5998;"> <span class="icon-facebook"> </span> </a>
+                    <a href="#" style="color:white; background: #55ACEE;"> <span class="icon-twitter"> </span> </a>
+                    <a href="#" style="color:white;background: #125688;"> <span class="icon-instagram"> </span> </a>
+                    <a href="#" style="color:white;background: #007bb5;"> <span class="icon-linkedin"> </span> </a>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="text-white">Subscribe Newsletter</h2>
+                    <form action="#" method="post">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-secondary text-black "
+                                placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-success text-white" type="button">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-2"></div>
+            <div class="col-sm-12 col-lg-8 mt-5">
+                <h6 class="text-white" style="text-align: center;">2023 All rights reserved | This website is
+                    designed
+                    by <a style="color: #7d7e7f;" class="uni-tec-lim" href="">Unify Tech Limited</a> </h6>
+            </div>
+            <div class="col-sm-12 col-lg-2"></div>
+        </div>
+    </div>
+
+
+
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
